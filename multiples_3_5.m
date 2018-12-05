@@ -9,6 +9,6 @@ multiples_5 = 5.*n; % Creates a new vector where each element is 5 times each el
 
 allmultiples = [multiples_3, multiples_5]; % New vector that contains all multiples of 3 and 5 less than 1000
 
-answer = sum(unique(allmultiples)); % Sum of the distinct elements of the vector "allmultiples". That means that if an element shows up twice, it will only be added once.
+answer = sum(unique(allmultiples)); % Sum of the distinct elements of the vector "allmultiples". So if an element shows up twice in this new vector, it will only be added once.
 
 disp(answer);
