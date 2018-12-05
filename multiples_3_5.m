@@ -4,9 +4,11 @@
 m = [1 : 999/3];
 n = [1 : 999/5];
 
-multiples_3 = 3.*m;
-multiples_5 = 5.*n;
+multiples_3 = 3.*m; % Creates a new vector where each element is 3 times each element in m
+multiples_5 = 5.*n; % Creates a new vector where each element is 5 times each element in n
 
-allmultiples = [multiples_3, multiples_5];
+allmultiples = [multiples_3, multiples_5]; % New vector that contains all multiples of 3 and 5 less than 1000
 
-answer = sum((unique(allmultiples));
+answer = sum(unique(allmultiples)); % Sum of the distinct elements of the vector "allmultiples". That means that if an element shows up twice, it will only be added once.
+
+disp(answer);
