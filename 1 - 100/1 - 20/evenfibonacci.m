@@ -18,7 +18,8 @@ while fibo(i) < 4e6
                                          % its length will increase by 1
                                          % during each iteration of the
                                          % while loop. Note: it's a Matlab convention
-                                         % to create a new cell where there
+                                         % to create a new cell with the newly 
+                                         % designated entry where there
                                          % wasn't one for an already
                                          % existing vector/matrix.
     if mod(fibo(i), 2) == 0
