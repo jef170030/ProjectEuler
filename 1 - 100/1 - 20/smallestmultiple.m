@@ -6,7 +6,7 @@ L = factorial(20)/factorial(10); % This number is divisible by all numbers from 
                                  % is an upper bound for the answer.
 
 for i = 20 : 20 : L  % i is an incrementing multiple of 20.
-    for j = 20 : -1 : 1
+    for j = 19 : -1 : 1
         
         if mod(i, j) ~= 0
             break 
