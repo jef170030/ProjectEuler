@@ -10,6 +10,7 @@ for i = 999 : -1 : 100
         
         str = num2str(answer); % str is the string of characters that are the digits of answer.
         
+        if 
         if all(str == str(end : -1 : 1)) == 1 && answer > newpalindrome
             % This part establishes the palindromes. 
             % The "all" portion of the above condition checks if all
@@ -23,19 +24,11 @@ for i = 999 : -1 : 100
         
         if answer < newpalindrome
             break
-            % For a fixed i, as j decrements we have the following:
             % If the product i*j is lower than the current highest
-            % palindrome found so far, then don't consider the product of
-            % that i with any lesser j (as their product will also be less
-            % that the current  highest palindrome). Hence we break out of
-            % the innermost loop and begin iteration again with the next
-            % least i.
+            % palindrome found so far, then don't even consider it (ie -
+            % just stop)
         end
     end
 end
-
-% Most of the code is just checking if a product i*j is a palindrome larger
-% than the current largest one. If it's not, then don't do anything with it
-% and keep iterating.
 
 disp(newpalindrome)
