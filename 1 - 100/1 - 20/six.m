@@ -5,9 +5,12 @@
 % Find the difference between the sum of the squares of the first one hundred natural numbers 
 % and the square of the sum.
 
+tic
+
 A = 1 : 100; % By Matlab convention, this creates a vector. By design, its elements 
              % are the naturals from 1 to 100, inclusive.
              
 answer = (sum(A)^2) - sum(A.*A);
-
 disp(answer)
+
+toc

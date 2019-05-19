@@ -2,6 +2,8 @@
 % without any remainder. What is the smallest positive number that is evenly divisible
 % by all of the numbers from 1 to 20?
 
+tic
+
 L = factorial(20)/factorial(10); % This number is divisible by all numbers from 1 to 20 and
                                  % is an upper bound for the answer.
 
@@ -35,5 +37,7 @@ for i = 20 : 20 : L  % i is an incrementing multiple of 20.
     
 end % If we get down here then we will iterate the entire loop again, but now with
     % the next multiple of 20.
-
+    
 disp(answer)
+
+toc
