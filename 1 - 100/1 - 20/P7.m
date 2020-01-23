@@ -2,7 +2,5 @@
 % we can see that the 6th prime is 13. What is the 10,001st prime number?
 
 tic
-
 nthprime(10001) % "nthprime" is a built-in matlab function
-
 toc

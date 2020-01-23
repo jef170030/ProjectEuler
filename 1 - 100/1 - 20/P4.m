@@ -3,7 +3,6 @@
 % Find the largest palindrome made from the product of two 3-digit numbers.
 
 tic
-
 newpalindrome = 0;
 
 for i = 999 : -1 : 100
@@ -41,5 +40,4 @@ end
 % and keep iterating.
 
 disp(newpalindrome)
-
 toc

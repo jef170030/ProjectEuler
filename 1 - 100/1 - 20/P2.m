@@ -4,7 +4,6 @@
 % find the sum of the even-valued terms.
 
 tic
-
 fibo = [1 2]; % Establishes the first two terms of the Fibonacci sequence
 
 i = 2;
@@ -30,5 +29,4 @@ while fibo(i) < 4e6
 end
 
 disp(answer)
-
 toc

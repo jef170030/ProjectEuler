@@ -3,7 +3,6 @@
 % by all of the numbers from 1 to 20?
 
 tic
-
 L = factorial(20)/factorial(10); % This number is divisible by all numbers from 1 to 20 and
                                  % is an upper bound for the answer.
 
@@ -39,5 +38,4 @@ end % If we get down here then we will iterate the entire loop again, but now wi
     % the next multiple of 20.
     
 disp(answer)
-
 toc

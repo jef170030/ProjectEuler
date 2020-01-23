@@ -2,7 +2,5 @@
 % What is the largest prime factor of the number 600851475143?
 
 tic
-
 disp(max([factor(600851475143)]));
-
 toc
